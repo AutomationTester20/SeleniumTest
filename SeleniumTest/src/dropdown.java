@@ -17,6 +17,7 @@ public class dropdown {
 		//dropdown.selectByValue("Option3");
 		System.out.println(dropdown.getFirstSelectedOption().getText());
 		dropdown.selectByVisibleText("Option3");
+		driver.manage().window().maximize();
 		
 	}
 
